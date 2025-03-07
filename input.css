@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --breakpoint-*: initial;
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1450px;
+
+  --color-darkBlue: hsl(217, 28%, 15%);
+  --color-darkBlue1: hsl(218, 28%, 13%);
+  --color-darkBlue2: hsl(216, 53%, 9%);
+  --color-darkBlue3: hsl(219, 30%, 18%);
+  --color-cyan: hsl(176, 68%, 64%);
+  --color-blue: hsl(198, 60%, 50%);
+  --color-lightRed: hsl(0, 100%, 63%);
+  --color-lightGray: hsl(210, 1.40%, 90%);
+
+  /* --logo-dark-mode: url('/images/logo-dark-mode.svg');
+  --logo-light-mode: url('/images/logo-light-mode.svg');
+  --curvy-dark-mode: url('/images/bg-curvy-dark-mode.svg');
+  --curvy-light-mode: url('/images/bg-curvy-light-mode.svg'); */
+
+   /* --color-brightRed: hsl(12, 88%, 59%);
+  --color-brightRedLight: hsl(12, 88%, 69%);
+  --color-brightRedSupLight: hsl(12, 88%, 95%);
+  --color-darkBlue: hsl(228, 39%, 23%);
+  --color-lightBlue: hsl(228, 39%, 32%);
+  --color-darkGrayishBlue: hsl(227, 12%, 61%);
+  --color-veryDarkBlue: hsl(233, 12%, 13%);
+  --color-veryPaleRed: hsl(13, 100%, 96%);
+  --color-veryLightGray: hsl(0, 0%, 60%);
+  --color-extremeLightGray: hsl(0, 0%, 90%);
+  --color-cyan: hsl(180, 66%, 49%);
+  --color-lightCyan: hsl(180, 66%, 60%);  */
+}
+
+/* @keyframes {
+  .container {
+  width: 100%;
+}
+
+@media (min-width >= 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width >= 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width >= 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width >= 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+} */
